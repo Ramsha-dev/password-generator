@@ -1,0 +1,89 @@
+body {
+    background-color: #1C1C1C;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #1F2937;
+    padding: 69px 100px;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    width: 379px;
+}
+
+p {
+    color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    margin-top: -10px;
+}
+
+.green-font {
+    color: #4ADF86;
+}
+
+.white-font {
+    color: #FFFFFF;
+}
+
+#generate-btn {
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    background-color: #10B981;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.password {
+    padding: 9px 15px;
+    border-radius: 6px;
+    background-color: #273549;
+    border: none;
+    margin-top: 40px;
+    width: 211px;
+    height: 25px;
+    color: #55F991;
+    text-align: center;
+    font-family: Inter;
+    cursor: pointer;
+}
+
+#password2-el{
+    margin-left: 25px;
+}
+
+.password-div {
+    display: flex;
+}
+
+hr {
+    height: 2px;
+    background-color: #273549;
+    border: none;
+}
+#copied-msg{
+    display: none;
+    padding: 9px 15px;
+    border-radius: 6px;
+    background-color: #10B981;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 40px;
+    width: 80px;
+    height: 25px;
+    font-family: Inter;
+    margin-left: 20px;
+    font-weight: bold;
+font-size: 13px;
+}
